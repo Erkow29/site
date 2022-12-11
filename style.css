@@ -1,0 +1,271 @@
+body{
+	background-image:url(file:///C:/Users/Асем/Desktop/Без%20названия.png);
+	
+
+ border: 10px solid rgb(75, 75, 75); 
+ max-width: 1050px;
+  box-shadow: 0 0 15px 5px rgba(44, 82, 100, .75);
+   margin-top: 30px;
+    margin-left: auto; 
+    margin-right: auto;
+     margin-bottom: 20px;
+      padding: 10px;
+       border-radius: 10px 10px 10px 10px; 
+	border-color:#E4E4E4;
+
+	position: relative;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 16px;
+	line-height: 1.4;
+	color: #000;
+	min-width: 320px;
+	overflow-x: hidden;
+	height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+.navbar   {
+	width:100%;
+	height:70px;
+	box-shadow: 0 4px 10px rgba(0,0,0, .1);
+	
+}
+
+.navbar                                .container                                            {
+	height: inherit;
+	display: flex;
+	justify-content:space-between;
+	align-items:center; 
+}
+
+
+
+.navbar-menu{
+		list-style-type:none;
+		padding-left:0;
+		margin-bottom:0;
+		text-decoration:none;
+}
+
+.navbar-menu            li {
+	display:inline-block;
+	text-decoration:none;
+}
+.navbar-menu            li                                        a{
+	display:inline-block;
+	text-decoration:none;
+	color:#000;
+	padding:10px;
+	opacity:0.6;
+}
+
+.navbar-menu            li                                        a:hover{
+	opacity:1;
+	
+}
+
+
+.navbar-wrap{
+	display:flex;
+	flex-flow: row nowrap;
+}
+
+.navbar-brand{
+		font-weight:700;
+		font-size:26px;
+		text-decoration:none;
+}
+
+	.dropdown{
+		margin-left: 30px;
+		display:inline-block;
+		padding:10px 30px;
+		color:#fff;
+		background-color:coral;
+		border-radius: 100px;
+		text-decoration:none;
+		
+		list-style-type:none;
+		margin-bottom:0;
+		
+}
+.dropdown:hover {
+		transform:scale(1.04);
+		box-shadow: 0 9px 9px rgba(255,127,80,2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.navbar-brand{
+		font-weight:700;
+		font-size:26px;
+		text-decoration:none;
+}
+
+
+.scroll{
+
+		height: 50px;
+}
+
+::-webkit-scrollbar{
+		width:15px;
+}
+
+::-webkit-scrollbar-track{
+		background:#d4d4d4;
+		box-shadow: 0 0 2px rgba(0,0,0,.2)inset;
+}
+
+::-webkit-scrollbar-thumb{
+		background: #154084;
+		border-radius:8px;
+		border: 3px solid #d4d4d4;
+}
+
+
+		*{
+				cursor:grab;
+		}
+
+
+
+.message{
+	color:#747474;
+	background-color:#E4E4E4;
+	border:1px dashed #323232;
+	font-size: 20px;
+	margin-right:50px;
+	margin-left:50px;
+	margin:10px;
+	
+}
+
+
+.success{
+	
+	margin:0px;
+	color:#ffffff;
+	background-color:#4E8DF5;
+	border:5px solid lime;
+	border-radius: 100px;
+	padding: 10px;
+	opacity:0.8;
+	box-shadow: 3px 3px 7px #000000;
+	width:20%;
+	text-align:center;
+	font-size: 15px;
+	font-weight:900;
+	
+	transition:3s all;
+	transform:scale(0.5);
+	
+}
+.success:hover{
+	transform:rotate(45deg)scale(0.5);
+	background-color:white;
+
+}
+
+img{
+	width="700px"
+}
+
+.filter img:hover{
+	-webkit-filter:grayscale(100%);
+}
+
+.red {
+	
+	background-color:lime;
+	border:1px dashed #323232;
+	font-size: 20px;
+	margin-right:50px;
+	margin-left:50px;
+	margin:10px;
+}
+
+.red:hover{
+	border:7px solid #323232;
+}
+
+
+
+.kok {
+	color:#ffffff;
+	background-color:#4B8BF5;
+}
+
+.message:hover{
+	border:7px solid #323232;
+}
+
+.dddd{
+
+	margin:0px;
+	color:#ffffff;
+	background-color:#4E8DF5;
+	border:5px solid lime;
+	border-radius: 100px;
+	padding: 10px;
+	opacity:0.8;
+	box-shadow: 3px 3px 7px #000000;
+	width:20%;
+	text-align:center;
+	font-size: 30px;
+	font-weight:900;
+	
+	transition:3s all;
+	transform:scale(0.5);
+	
+}
+
+.dddd:hover{
+	transform:rotate(-45deg)scale(0.5);
+	background-color:white;
+
+}
+
+.sss{
+	
+	color:#ffffff;
+	background-color:#4E8DF5;
+	border:7px solid lime;
+	border-radius: 30px;
+	padding: 10px;
+	opacity:0.8;
+	box-shadow: 3px 3px 7px #000000;
+	width:40%;
+	text-align:center;
+	font-size: 50px;
+	font-weight:900;
+	align:center;
+	
+	transition:3s all;
+	transform:scale(0.5);
+}
+
+.sss:hover{
+	transform:rotate(25deg)scale(0.5);
+	background-color:purple;
